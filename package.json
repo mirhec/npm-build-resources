@@ -1,6 +1,6 @@
 {
   "name": "build-resources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copies all resource files into your bin directory.",
   "main": "lib/build-resources.js",
   "bin": "./bin/build-resources",
