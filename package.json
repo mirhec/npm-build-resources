@@ -1,0 +1,29 @@
+{
+  "name": "build-resources",
+  "version": "1.0.0",
+  "description": "Copies all resource files into your bin directory.",
+  "main": "lib/build-resources.js",
+  "bin": "./bin/build-resources",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run build",
+    "prepublish": "npm run build",
+    "build": "coffee --compile --output lib/ src/"
+  },
+  "keywords": [
+    "build",
+    "resources",
+    "images",
+    "properties",
+    "java"
+  ],
+  "dependencies": {
+    "cp": "latest"
+  },
+  "author": "Mirko Hecky",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirhec/npm-build-resources.git"
+  }
+}
